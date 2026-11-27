@@ -1,4 +1,4 @@
-package org.lld.chess.core;
+package org.lld.chess.core.board;
 
 import org.lld.chess.factory.PiecesFactory;
 import org.lld.chess.utils.Cell;
@@ -51,6 +51,8 @@ public class Board {
             board[rows][i]=new Cell(rows,i,PiecesFactory.createPiece("pawn",isWhite));
         }
     }
+
+
     public int getSize() {
         return board.length;
     }

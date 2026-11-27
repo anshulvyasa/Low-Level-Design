@@ -1,6 +1,6 @@
 package org.lld.chess.stragety.movement.concrete;
 
-import org.lld.chess.core.Board;
+import org.lld.chess.core.board.Board;
 import org.lld.chess.utils.Cell;
 
 public class BishopMovementStrategy extends BaseMovementStrategy {

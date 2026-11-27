@@ -1,4 +1,5 @@
 package org.lld.chess.core.game;
 
-public class BoardGame {
+public interface BoardGame {
+    void play();
 }
