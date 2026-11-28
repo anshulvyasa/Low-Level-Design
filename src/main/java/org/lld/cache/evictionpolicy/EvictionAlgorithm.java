@@ -1,4 +1,6 @@
 package org.lld.cache.evictionpolicy;
 
-public class EvictionAlgorithm {
+public interface EvictionAlgorithm<K> {
+    void keyAccessed(K key) throws Exception;
+    K evictKey() throws Exception;
 }

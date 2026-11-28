@@ -1,4 +1,4 @@
-package org.lld.cache.dbstorage;
+package org.lld.cache.storage.interfaces;
 
 public interface DBStorage<K,V>{
     void write(K key,V value) throws Exception;

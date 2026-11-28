@@ -1,4 +1,4 @@
-package org.lld.cache.cachestorage;
+package org.lld.cache.storage.interfaces;
 
 public interface CacheStorage<K,V> {
     void put(K key,V value) throws Exception;
